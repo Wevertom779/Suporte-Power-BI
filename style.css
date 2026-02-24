@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.suporte-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 260px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icons a {
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+.outlook {
+  color: #0078D4;
+}
+
+.teams {
+  color: #6264A7;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.2);
+}
